@@ -1,0 +1,31 @@
+{
+  "name": "ajusteur",
+  "displayName": "Ajusteur",
+  "description": "Design a fitted wardrobe, a piece of furniture or a kitchen against Ajusteur's workshop rules, draw it, get an honest estimate, and hand over a request link to ajusteur.com.",
+  "version": "0.3.0",
+  "author": {
+    "name": "Ajusteur",
+    "url": "https://ajusteur.com"
+  },
+  "homepage": "https://docs.ajusteur.com",
+  "keywords": [
+    "furniture",
+    "kitchen",
+    "wardrobe",
+    "joinery",
+    "uae",
+    "made to fit"
+  ],
+  "userConfig": {
+    "api_token": {
+      "type": "string",
+      "title": "Ajusteur API token",
+      "description": "Create one at https://ajusteur.com/account/api-tokens.",
+      "sensitive": true,
+      "required": true
+    }
+  },
+  "repository": "https://github.com/chiekh-a/ajusteur-mcp",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://ajusteur.com/privacy"
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ajusteur": {
+      "type": "http",
+      "url": "https://ajusteur.com/api/mcp",
+      "headers": { "Authorization": "Bearer ${user_config.api_token}" }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.ajusteur/mcp",
+  "title": "Ajusteur",
+  "description": "Design fitted wardrobes, furniture and kitchens to a real workshop's rules, draw them, estimate them and hand over a request link.",
+  "version": "0.3.0",
+  "websiteUrl": "https://docs.ajusteur.com",
+  "repository": { "url": "https://github.com/chiekh-a/ajusteur-mcp", "source": "github" },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ajusteur.com/api/mcp",
+      "headers": [
+        { "name": "Authorization", "description": "Bearer followed by an API token from https://ajusteur.com/account/api-tokens", "isRequired": true, "isSecret": true }
+      ]
+    }
+  ]
+}

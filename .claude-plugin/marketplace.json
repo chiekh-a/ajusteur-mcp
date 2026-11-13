@@ -1,0 +1,19 @@
+{
+  "name": "ajusteur",
+  "owner": {
+    "name": "Ajusteur",
+    "url": "https://ajusteur.com"
+  },
+  "metadata": {
+    "description": "Design furniture and kitchens made to fit with Ajusteur's workshop engine."
+  },
+  "plugins": [
+    {
+      "name": "ajusteur",
+      "source": "./",
+      "description": "Design a fitted wardrobe, a piece of furniture or a kitchen against Ajusteur's workshop rules, draw it, get an honest estimate, and hand over a request link to ajusteur.com.",
+      "category": "design",
+      "homepage": "https://docs.ajusteur.com"
+    }
+  ]
+}
