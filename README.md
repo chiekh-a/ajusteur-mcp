@@ -10,6 +10,8 @@ Ajusteur makes fitted wardrobes, furniture and kitchens in the UAE, made to fit.
 
 Sign in at [ajusteur.com/account/api-tokens](https://ajusteur.com/account/api-tokens) and create one. It starts with `aj_` and is shown once.
 
+Accounts are not open yet. Until they are, Ajusteur issues tokens directly.
+
 ```bash
 export AJUSTEUR_API_TOKEN="aj_…"
 ```
